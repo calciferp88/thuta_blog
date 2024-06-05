@@ -49,6 +49,25 @@ export default async function BlogArticle({
       <div className="mt-16 prose prose-blue prose-lg dark:prose-invert prose-li:marker:text-primary prose-a:text-primary">
         <PortableText value={data.content} />
       </div>
+
+    <footer className="bg-white text-black py-8 rounded mt-10 mb-10">
+      <div className="container mx-auto px-4 flex flex-col items-center justify-center">
+        <div className="text-center mb-4">
+          <img className="w-14 h-14 rounded-full mx-auto shadow-md" src="https://media.licdn.com/dms/image/D5603AQFreBx3_oUEQA/profile-displayphoto-shrink_800_800/0/1711788476774?e=1723075200&v=beta&t=0SfEd3MUJv2RiP-n3GCuQEQjLPr8KG0pjExdUiLyc2s" alt="Author Avatar" />
+          <h4 className="text-lg font-bold">Pyae Thuta</h4>
+          <p className="text-sm">IT Analyst &amp; Project Coordinator</p>
+        </div>
+        <div className="text-center">
+          <h3 className="text-lg font-bold mb-2">About the Author</h3>
+          <p className="text-sm">An IT enthusiast with well-versed technology background. Feel free to contact for a discussion or hangout. Check out more details at  
+          <a href="https://pyaethuta.vercel.app" className="font-bold text-blue-600"> PORTFOLIO</a></p>
+        </div>
+      </div>
+    </footer>
+
     </div>
+
+
+
   );
 }

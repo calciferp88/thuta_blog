@@ -9,3 +9,4 @@ renderStudio(
   studioConfig,
   {reactStrictMode: false, basePath: "/"}
 )
+ 
