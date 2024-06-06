@@ -53,7 +53,14 @@ export default async function BlogArticle({
     <footer className="bg-white text-black py-8 rounded mt-10 mb-10">
       <div className="container mx-auto px-4 flex flex-col items-center justify-center">
         <div className="text-center mb-4">
-          <img className="w-14 h-14 rounded-full mx-auto shadow-md" src="https://media.licdn.com/dms/image/D5603AQFreBx3_oUEQA/profile-displayphoto-shrink_800_800/0/1711788476774?e=1723075200&v=beta&t=0SfEd3MUJv2RiP-n3GCuQEQjLPr8KG0pjExdUiLyc2s" alt="Author Avatar" />
+        <Image
+          src="/pyaethuta_formal.png"
+          width={800}
+          height={800}
+          alt="Title Image"
+          priority
+          className="w-14 h-14 rounded-full mx-auto shadow-md"
+        />  
           <h4 className="text-lg font-bold">Pyae Thuta</h4>
           <p className="text-sm">IT Analyst &amp; Project Coordinator</p>
         </div>
@@ -63,6 +70,10 @@ export default async function BlogArticle({
           <a href="https://pyaethuta.vercel.app" className="font-bold text-blue-600"> PORTFOLIO</a></p>
         </div>
       </div>
+    </footer>
+
+    <footer className="mt-auto bg-transparent text-center py-4 mb-10">
+        <p className="text-gray-400 font-bold text-sm">&copy; 2024 Pyae Thuta. All rights reserved.</p>
     </footer>
 
     </div>
